@@ -1,0 +1,13 @@
+在z=50欧的射频系统中，13dbm的信号对应的电压是多少？
+答： dBm 毫瓦的dB形式，以1mW为0dB。
+dBm=10log（mW）换算成mW,按50欧即可算出电压。
+比如13dBm=20=0.02W P=U^2/50 0.02=U^2/50 U=1V
+
+在dB，dBm，dBw计算中，要注意基本概念。比如前面说的0dBw = 10log1W = 10log1000mw = 30dBm；
+又比如，用一个dBm 减另外一个dBm时，得到的结果是dB。如：30dBm - 0dBm = 30dB。
+一般来讲，在工程中，dB和dB之间只有加减，没有乘除。而用得最多的是减法：dBm 减 dBm 实际上是两个功率相除，信号功率和噪声功率相除就是信噪比（SNR）。dBm加dBm实际上是两个功率相乘。
+
+dBmv,dBuV,dBm,dBu,dBW,dBV
+
+dBmv,毫伏的dB单位， dBmv = 10lg（mV）；
+dBuV,dBm,dBu,dBW,dBV
